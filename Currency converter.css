@@ -1,0 +1,48 @@
+Style.css
+Body {
+   Font-family: Arial, sans-serif;
+   Background-color: #f4f4f4;
+   Display: flex;
+   Justify-content: center;
+   Align-items: center;
+   Height: 100vh;
+   Margin: 0;
+}
+ 
+.container {
+   Background-color: #fff;
+   Padding: 20px;
+   Border-radius: 8px;
+   Box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   Text-align: center;
+}
+ 
+.converter {
+   Display: flex;
+   Flex-direction: column;
+   Gap: 10px;
+}
+ 
+Input, select, button {
+   Padding: 10px;
+   Font-size: 16px;
+   Border: 1px solid #ccc;
+   Border-radius: 4px;
+}
+ 
+Button {
+   Background-color: #28a745;
+   Color: #fff;
+   Cursor: pointer;
+   Border: none;
+}
+ 
+Button:hover {
+   Background-color: #218838;
+}
+ 
+#result {
+   Margin-top: 20px;
+   Font-size: 18px;
+   Font-weight: bold;
+}
